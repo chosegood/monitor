@@ -5,5 +5,9 @@
 	"dependencies": {
 		"mocha": "~1.5.0",
     "mime": "~1.2.7"
-	}
+	},
+    "scripts": {
+    "autotest": "mocha --growl --watch"
+  }
+
 }
