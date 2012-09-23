@@ -53,6 +53,5 @@ var server = http.createServer(function (request, response) {
 });
 
 server.listen(1337, function (listening) {
-  console.log(listening);
   console.log('Server listening on port 1337.');
 });
