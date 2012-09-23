@@ -3,6 +3,7 @@
 	"version": "0.0.1",
 	"description": "Node.js Directory Notification Application",
 	"dependencies": {
-		"mocha": "~1.5.0"
+		"mocha": "~1.5.0",
+    "mime": "~1.2.7"
 	}
 }
