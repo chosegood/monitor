@@ -1,9 +1,20 @@
-var assert = require("assert")
-describe('Array', function(){
-  describe('#indexOf()', function(){
-    it('should return -1 when the value is not present', function(){
-      assert.equal(-1, [1,2,3].indexOf(5));
-      assert.equal(-1, [1,2,3].indexOf(0));
-    })
-  })
-})
+/*global describe:true, it:true */
+
+var assert = require("assert"),
+    monitor = require('../lib/monitor.js');
+
+describe('monitor', function () {
+  
+  describe('watch', function () {
+
+    it('should handle a null directory', function () {
+        monitor.watch(null);
+    });
+
+    it('should handle an undefined directory', function () {
+        monitor.watch(undefined);
+    });
+
+  });
+
+});
